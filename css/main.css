@@ -1,88 +1,163 @@
 @charset "UTF-8";
 /* CSS Document */
 
- li {
-	display: inline-block;
-	 padding: 10px;
-	 float: left;
-	 
-	 
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
 }
 
-nav {
-	margin-left: 450px;
-	
+.wrapper:nth-child(2) {
+	height: 755px;
 }
-
 
 .bg-blue {
 	background-color: #5eb0d1;
 	opacity: 0.4;
-	margin: auto;
-	height: 507px;
+	
+	
 }
 
-.wrapper {
-	margin: auto;
-	height: 115px;
-}
+
 
 .bg-dark-blue {
 	background-color: #5eb0d1;
 }
 
-.bg-white {
-	background-color: #fff;
-	width: 300px;
-	height: 100px;
-	float: left;
-	margin: 10px 550px;
+
+.bg-blue {
+	height: 507px;
 }
+
+ 
+
+ li {
+	display: inline-block;
+	 padding: 10px;
+	 float: left;
+}
+
+
+nav:first-child {
+	margin-left: 450px;
+	
+	
+}
+
+#about > p:first-child, #order > h3  {
+	text-align: center;
+	color: #e20c21;
+	font-size: 34px;
+	font-family: 'Asap';
+}
+
+#about > p:last-child {
+	margin-right: 1000px;
+}
+
+ #hours > nav li  {
+	background-image: url(../img/cherry-icon.png);
+	background-repeat: no-repeat;
+	background-size: 30px
+}
+
+
 
 p {
 	font-size: 14px;
 }
 
-
-
-.r-1 {
+#first-pic {
 	background-image: url(../img/heart-on-top-cupcake.png);
 	background-repeat: no-repeat;
-	width: 369px;
-	height: 407px;
-	float: left;
+	background-size: cover;
+	width: 700px;
+	height: 300px;
+	
+	margin-left: 350px;
+	
 }
 
-.r-2 > p, #r-6 > p:first-child, #r-10 > p:first-child, #r-13 > p:first-child  {
-	color: #e20c21;
-	font-size: 34px;
+#first-pic > p {
+	color: #fff;
+	font-size: 55px;
+	margin-top: 170px;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	background-color: #e20c21;
+	padding: 5px 20px;
+	
+}
+
+
+
+#treats > p:nth-child(2), #r-8 > p:nth-child(2) {
 	text-align: center;
-	padding: 40px 0 10px 0;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.row:first-child {
+	width: 1170px;
+	height: 375px;
+}
+
+#r-1 {
+	margin-left: 110px;
+}
+
+
+#r-11 {
+	margin-right: 910px;
 }
 
 
 
-.r-6 > p:nth-child(2), .r-12 > p:nth-child(2) {
-	text-align: center;
-}
-
-h2 {
+ h2 {
 	color: #5eb0d1;
-	font-size: 20px;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
 }
 
-.r-3 {
-	float: left;
-	margin-left: 70px;
-}
-
-form > label {
+#hours > nav {
+	font-size: 14px;
 	display: block;
+}
+
+#signature, #allergen, #vegen {
+	margin-right: 880px;
+}
+
+
+
+
+
+
+ label {
+	display: block;
+	padding: 10px;
+}
+
+form > label:first-child > input, form > label:nth-child(2) > input, label:nth-child(3) > input, label:nth-child(4) > input  {
+	width: 469px;
+	height: 30px;
+}
+
+label:nth-child(5) > input {
+	width: 469px;
+	height: 183px;
 }
 
 table {
 	border-collapse: collapse;
 	padding: 50px;
+	background-color: #fff;
+	margin-left: 450px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
 	
 }
 
@@ -93,24 +168,27 @@ td, th {
 
 th, tbody > tr >td:first-child{
 	color: #0fb787;
+	font-size: 13px;
 }
 
-#r-11  {
-	padding-right: 100px;
-	
+td:nth-child(2), td:nth-child(3), td:last-child{
+	font-style: italic;
 }
 
-#r-12 {
-	padding-left: 100px;
-}
+
+
 
 
 
 /*-------Float------*/
- .row:nth-child(2), #r-11   {
+ #first-pic, #first-pic > p {
 	float: left;
 	
 } 
+
+
+
+
 
 
 
